@@ -6,7 +6,7 @@ This project presents a complete pipeline for automated robotic polishing of com
 
 The core problem addressed is the need to precisely control a robotic arm to follow a complex, non-linear path on an irregularly shaped object. The solution is a modular system where each component handles a specific task, making the entire process robust and scalable.
 
-![System Setup](images/Screenshot 2025-09-06 162759.png)
+![System Setup](https://github.com/kabeersahu/ADUZA-Polisher/blob/main/images/Screenshot%202025-09-06%20162759.png)
 *Complete robotic polishing system setup showing the delta robot configuration with control platform*
 
 ## **Key Features**
