@@ -36,7 +36,7 @@ This project is a perfect example of a robotics workflow. The scripts and data f
 ### 1. Data Acquisition (camara2.py)
 The process begins with capturing 3D data. The camara2.py script utilizes the RealSense SDK to stream RGB and depth data. It applies a mask to isolate the object of interest and then, upon user input ('s' key), saves the current view as a .ply point cloud file.
 
-![RealSense Camera Interface](image2.jpg)
+![RealSense Camera Interface](https://github.com/kabeersahu/ADUZA-Polisher/blob/main/images/Screenshot%202025-09-06%20162759.png)
 *Real-time depth and RGB data visualization from RealSense camera with object masking*
 
 The image above shows the camera interface with:
@@ -47,7 +47,7 @@ The image above shows the camera interface with:
 ### 2. Mesh Segmentation (camera_3 (1).py)
 Once a point cloud file is captured, camera_3 (1).py processes it. This script takes the raw point cloud and performs a series of advanced segmentation steps:
 
-![Point Cloud Segmentation](image1.jpg)
+![Point Cloud Segmentation](https://github.com/kabeersahu/ADUZA-Polisher/blob/main/images/Screenshot%202025-09-06%20162923.png)
 *Point cloud segmentation showing object isolation (red) from background (green)*
 
 * **RANSAC:** Removes the flat base plate the object is sitting on.  
