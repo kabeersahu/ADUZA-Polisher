@@ -59,13 +59,13 @@ The core of the planning stage. This script takes the segmented object_top_patch
 * It uses Open3D for 3D geometry processing.  
 * It defines a path over the object's surface, interpolating waypoints to create a smooth trajectory.  
 * The waypoints, consisting of X, Y, Z coordinates and Roll, Pitch, Yaw angles, are written to a CSV file (polishing_trajectory.csv). This CSV serves as the shared data format between the planning and execution stages.
-
+![aduza visualiser](https://github.com/kabeersahu/ADUZA-Polisher/blob/main/images/aduza%20visualisation.png)
 ### 4. Robot Execution (Api_Aduza (1).py)
 This script is the final link in the chain. It reads the pre-planned trajectory from polishing_trajectory.csv.
 * It connects to the robotic arm via a custom aduza API.  
 * It iterates through each waypoint in the CSV file, sending absolute move commands to the robot.  
 * The script controls the speed and smoothness of the robot's movement (TIME_PER_SEGMENT, STEPS_PER_SEGMENT) to ensure a consistent polishing operation.
-
+![csv](https://github.com/kabeersahu/ADUZA-Polisher/blob/main/images/CSV%20DATA%20FOR%20API.png)
 ## **Files & Their Roles**
 
 | File Name | Role in Project |
